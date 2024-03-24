@@ -3,8 +3,8 @@ import { getFrameMetadata } from "./utils/framesUtils";
 
 const frameMetadata = getFrameMetadata({
   buttons: ['Begin quiz'],
-  image: 'https://quiz-frame.vercel.app/titleImage.png', // must be absolute path
-  post_url: 'https://quiz-frame.vercel.app/api/question?n=1',
+  image: 'https://woodwork-main.vercel.app/titleImage.jpg', // must be absolute path
+  post_url: 'https://woodwork-main.vercel.app/api/question?n=1',
 });
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'quiz frame',
     description: 'Woodwork Fantasy',
-    images: ['https://quiz-frame.vercel.app/titleImage.png'],
+    images: ['https://woodwork-main.vercel.app/titleImage.jpg']
   },
   other: {
     ...frameMetadata,

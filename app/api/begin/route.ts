@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const PROMPT = 'Begin quiz'
-const COVER_IMAGE = 'https://quiz-frame.vercel.app/titleImage.png'
+const COVER_IMAGE = 'https://woodwork-main.vercel.app/titleImage.png'
 
 // show quiz title image
 // show begin button
@@ -15,7 +15,7 @@ async function getResponse(): Promise<NextResponse> {
                 <meta property="fc:frame" content="vNext" />
                 <meta property="fc:frame:image" content="${COVER_IMAGE}" />
                 <meta property="fc:frame:button:1" content="${PROMPT}" />
-                <meta property="fc:frame:post_url" content="https://quiz-frame.vercel.app/api/question?n=1" />
+                <meta property="fc:frame:post_url" content="https://woodwork-main.vercel.app/api/question?n=1" />
             </head>
             </html>
             `

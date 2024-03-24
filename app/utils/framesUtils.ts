@@ -25,7 +25,7 @@ export const getFrameMetadata = function ({ buttons, image, post_url }: FrameMet
     return metadata;
 };
 
-const DOMAIN = 'https://quiz-frame.vercel.app'
+const DOMAIN = 'https://woodwork-main.vercel.app'
 export function buildFrameMetaHTML({
     title,
     image,
