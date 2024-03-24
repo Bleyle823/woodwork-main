@@ -6,7 +6,7 @@ import { NextResponse, NextRequest } from "next/server";
 const RESULT_CONFIG = [
     { min: 3, max: 4, title: 'Congratulations!  Claim your Optimism NFT', image: 'optimism.jpg' },
     { min: 5, max: 6, title: 'Congratulations!  Claim your Arbitrum NFT', image: 'arbitrum.jpg' },
-    { min: 7, max: 9, title: 'YCongratulations!  Claim your Base NFT', image: 'base.png' },
+    { min: 7, max: 9, title: 'Congratulations!  Claim your Base NFT', image: 'base.png' },
     { min: 10, max: 12, title: 'Congratulations!  Claim your Polygon NFT', image: 'polygon.jpg' },
 ]
 const ACTIONS = ["Mint NFT"]
