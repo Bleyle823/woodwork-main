@@ -9,7 +9,7 @@ const RESULT_CONFIG = [
     { min: 7, max: 9, title: 'Congratulations!  Claim your Base NFT', image: 'base.png' },
     { min: 10, max: 12, title: 'Congratulations!  Claim your Polygon NFT', image: 'polygon.jpg' },
 ]
-const ACTIONS = ["MINT NFT"]
+const ACTIONS = ["Mint NFT"]
 
 // add up score
 // show result
