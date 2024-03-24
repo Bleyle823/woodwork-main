@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Contracts
 
+ Open SEA NFT DEPLOYED ON BASE: https://testnets.opensea.io/assets/base-sepolia/0xa2c9dba2cd2f8a021865f9ee4f5bc497cef62bcc/2/
+
+Base Deployment contract : 0x5c17B5f1A15CC54236F93289BAd21888DDAbB384 
+
+Pinata Image : https://rose-changing-whippet-324.mypinata.cloud/ipfs/QmWrCKsC8LVFn3fqMuCpcNga5NKLnVUTxuatrUEu39NF3f
+
+Optimism Contract deployment TRANSACTION HASH:
+0x195f0bd99761348e0813afbf0117e554c7cc4009eaccc7a854b5085c5b0fed41 
+
+Optimism SAFE MINT HASH :
+0x8f8f5ab2ae27c92d783caaf133942ba7e13e8a8b801348fb12156033b4083055
 ## Getting Started
 
 First, run the development server:
